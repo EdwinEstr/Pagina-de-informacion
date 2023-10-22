@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Calculadoras</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadoras</h1>
+        <nav>
+            <ul>
+                <li><a href="index2.html">Inicio</a></li>
+                <li><a href="videos.html">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <section id="costos-fabricacion">
+            <h2>Principales costos de fabricación</h2>
+            <h3>Costo de materias primas</h3>
+            <p>Para calcular este indicador, necesitamos conocer el inventario inicial de materia prima, lo que tuvimos que comprar y el inventario final.</p>
+            <p>Ya con esta información, podemos calcular el costo de las materias primas de la siguiente manera:</p>
+            <p>Consumo de materia prima = Cantidad de materia prima que tenemos al principio + cantidad de materia prima adquirida – cantidad de materia prima final</p>
+            <p>Posteriormente, multiplicamos el consumo de materia prima por el precio. Así sabremos cuánto representan las materias primas en nuestros costos de fabricación.</p>
+            <button id="calculate-material-cost">Calcular Costo</button>
+            <div id="material-cost-result"></div>
+    
+            <h3>Costo de mano de obra directa</h3>
+            <p>Para obtener este indicador, simplemente sumamos:</p>
+            <p>Salarios</p>
+            <p>Seguridad social</p>
+            <p>Vacaciones</p>
+            <p>Horas extra</p>
+            <button id="calculate-labor-cost">Calcular Costo</button>
+            <div id="labor-cost-result"></div>
+    
+            <h3>Costos indirectos de fabricación</h3>
+            <p>Como su nombre lo dice, aquí sumaremos todas las inversiones que no están en contacto directo con la fabricación del producto, pero que son necesarias.</p>
+            <p>Algunos de los costos de producción indirectos más comunes son:</p>
+            <p>Renta de instalaciones y equipos</p>
+            <p>Reparaciones</p>
+            <p>Mantenimiento</p>
+            <p>Amortizaciones</p>
+            <p>Combustible</p>
+            <p>Mano de obra indirecta</p>
+            <button id="calculate-indirect-cost">Calcular Costo</button>
+            <div id="indirect-cost-result"></div>
+        </section>
+    
+        <script src="script.js"></script>
+    </section>
+</body>
+</html>
+<footer>
+    Alin Ariadna Estrada © 2023 DNV11.
+</footer>

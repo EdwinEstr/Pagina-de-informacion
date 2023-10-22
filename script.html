@@ -1,0 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const calculateMaterialCostButton = document.getElementById('calculate-material-cost');
+    const materialCostResult = document.getElementById('material-cost-result');
+
+    calculateMaterialCostButton.addEventListener('click', function() {
+        const initialInventory = parseFloat(prompt('Ingrese el inventario inicial de materia prima:'));
+        const purchasedMaterial = parseFloat(prompt('Ingrese la cantidad de materia
